@@ -1,0 +1,6 @@
+services:
+  ollama-proxy:
+    build: .
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
